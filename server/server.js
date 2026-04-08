@@ -3,7 +3,7 @@ const Document = require("./Document")
 
 // ✅ CONNECT TO MONGODB
 mongoose.connect(
-  "mongodb+srv://kaushikanand2524_db_user:kaushik123@cluster0.eiw02io.mongodb.net/google-docs-clone?retryWrites=true&w=majority"
+  " ADD YOUR OWN "
 )
 .then(() => console.log("MongoDB connected ✅"))
 .catch(err => console.error("MongoDB error ❌", err))
